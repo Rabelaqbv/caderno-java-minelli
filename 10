@@ -1,0 +1,8 @@
+//cria uma função(metodo)que escreve na tela
+  fun MinhaFuncao(){
+    println("minha função escreve na tela")
+  }
+  fun main(args: Array<String>) {
+    MinhaFuncao()
+    MinhaFuncao()
+}
