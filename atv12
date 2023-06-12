@@ -26,7 +26,7 @@ fun soMa(z: Int, a: Int): Int{
 
 //funçao principal kotlin
 fun main() {
-  meuNome("Raquel")
+  meuNome("Deivid")
   verFalse(true)
   verFalse(false)
   idaDe(26)
