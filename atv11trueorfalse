@@ -1,0 +1,15 @@
+fun main(args: Array<String>) {
+  //criaruma variavel tipo boolean(false e true)
+  var nomeVariavel: Boolean = false
+  println(nomeVariavel)
+  var x: Boolean = false
+  println(x)
+  //if faz teste e retorna boolean
+
+  if (x){
+    println("verdadeiro")
+  }
+  else{
+    println("falso")
+  }
+}
