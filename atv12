@@ -1,0 +1,36 @@
+//cria uma funçao passando um  parametro
+fun meuNome(nome:String){
+  println("Seu nome é: " +nome)
+}
+//crie uma funçao que retorne true ou false, passando um parametro x na chamada da funçao
+
+fun verFalse(x:Boolean){
+  println(x)
+}
+//crie uma funçao que verifica a idade passada como parametro é maior de idade
+fun idaDe(y:Int){
+  println("Qual sua idade?")
+
+
+  if(y>= 18){
+    println(" You is maior de idade: " + y)
+  }
+  else {
+    println( " You is menor de idade: " + y)
+  } 
+}
+//crie uma funçao que passa dois parametros inteiros a e b, a funçao retorna a soma dois valores
+fun soMa(z: Int, a: Int): Int{
+  return z+ a
+}
+
+//funçao principal kotlin
+fun main() {
+  meuNome("Raquel")
+  verFalse(true)
+  verFalse(false)
+  idaDe(26)
+  idaDe(13)
+  var result = soMa(4, 8)
+  println (result)
+}
